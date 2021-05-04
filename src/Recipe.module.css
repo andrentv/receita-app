@@ -1,0 +1,35 @@
+.recipe {
+    border-radius: 30px;
+    box-shadow: 0px 5px 20px black;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: white;
+    align-items: center;
+    width: 30%;
+}
+
+.title {
+    display: flex;
+    text-align: contain;
+}
+
+.image {
+    border-radius: 20%;
+    box-shadow: 0px 0px 20px rgba(8, 8, 8, 0.548);
+    width: 300px;
+    height: 250px;
+    margin-bottom: 15px;
+    object-fit: cover;    
+}
+
+.ingre {
+    padding: 40px;
+    max-width: 70%;
+}
+
+.ol {
+    padding: 0;
+    text-align: center;
+}
